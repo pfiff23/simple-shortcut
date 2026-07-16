@@ -1,0 +1,14 @@
+#include "resource.h"
+
+IDI_APP ICON "app.ico"
+
+IDR_TRAY_MENU MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Open Settings",   IDM_OPEN_SETTINGS
+        MENUITEM "Autostart",      IDM_AUTOSTART
+        MENUITEM SEPARATOR
+        MENUITEM "Exit",           IDM_EXIT
+    END
+END
